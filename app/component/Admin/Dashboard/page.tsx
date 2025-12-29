@@ -1,6 +1,6 @@
 'use client'
 import Link from "next/link"
-import { House } from "lucide"
+import { House } from "lucide-react"
 
 
 import { database, databaseId, ID, studentCollectionId } from "@/lib/appwrite"
@@ -28,7 +28,7 @@ const Dashboard = () => {
         <div>
                   <div className="p-4 text-sky-600">
                 <Link  href="../" >
-                <House className="cursor-pointer"/>
+                < House/>
             </Link>
                 </div>
         <div className="p-24">

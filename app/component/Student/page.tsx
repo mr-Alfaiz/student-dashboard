@@ -35,7 +35,7 @@ const page = () => {
         <div>     
              <div className="p-4 text-sky-600">
                 <Link  href="../" >
-                <House className="cursor-pointer"/>
+                <House />
             </Link>
                 </div>
              
