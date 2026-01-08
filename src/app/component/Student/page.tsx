@@ -8,6 +8,7 @@ const page = () => {
     const [id, setID] = useState('')
     const [student, setStudent] = useState<any>(null)
     const [error, setError] = useState('')
+// npm dedupe
 
     const checkstudent = async (e:React.FormEvent) => {
         e.preventDefault()
